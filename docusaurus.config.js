@@ -18,7 +18,16 @@ const config = {
   themeConfig: require('./config/theme'),
   plugins: require('./config/plugin'),
   
-    stylesheets: [],
+  stylesheets: [],
+  i18n: {
+    defaultLocale: 'zh',
+    locales: ['en', 'zh'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      },
+    },
+     },
 }
 
 module.exports = config

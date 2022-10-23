@@ -166,37 +166,7 @@ module.exports = {
           },            
         ],
         },
-       {
-        title: '技术栈',
-        items: [
-          {
-                label: "React",
-                href: "https://react.docschina.org/",
-              },
-              {
-                label: "Vue.js",
-                href: "https://react.docschina.org/",
-              },
-              {
-                label: "Python",
-                href: "https://www.w3school.com.cn/python/index.asp",
-              },
-              {
-                label: "Java",
-                href: "https://zq99299.github.io/java-tutorial/",
-              },
-              {
-                html: `<a href="https://docusaurus.io/zh-CN/" target="_blank"><img style="height:50px;margin-top:0.5rem" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/buildwith.png"/><a/>
-                
-                `,
-              },
-             {
-                html: `<a href="https://www.netlify.com/" target="_blank"><img style="height:50px;margin-top:0.5rem" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/netlify.png"/><a/>
-                
-                `,
-              },
-        ],
-        }, 
+        
     ],
     copyright: `${new Date().getFullYear()} pcc-archive.org`,
   },
