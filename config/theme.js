@@ -67,10 +67,6 @@ module.exports = {
             to: '/posts/tags/purr-cast',
           },
           {
-            label: '💬 面试',
-            to: '/posts/tags/interview',
-          },
-          {
             label: '🧐 解释',
             to: '/posts/tags/explained',
           },

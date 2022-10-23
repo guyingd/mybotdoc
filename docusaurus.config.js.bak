@@ -7,7 +7,7 @@ const config = {
   tagline: '#WeLoveThePurrs',
   url: 'https://bot.guyinga.top/resources',
   baseUrl: '/',
-  onBrokenLinks: 'ignore',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'guyingd', // Usually your GitHub org/user name.
