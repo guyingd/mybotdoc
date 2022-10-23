@@ -8,48 +8,49 @@ module.exports = {
       alt: '头像',
       src: 'http://q2.qlogo.cn/headimg_dl?dst_uin=2739218253&spec=100',
     },
-    items: [
-      { to: '/club', label: '⛳️ Club', position: 'left' },
+//yy     items: [
+//yy        { to: '/club', label: '⛳️ Club', position: 'left' },
+//yy        {
+//yy          label: '😺 Collections',
+//yy          position: 'left',
+//yy          to: '/collections',
+//yy          items: [
+//yy            {
+//yy              label: '😺 Cats',
+//yy              to: '/collections/cats',
+//yy            },
+//yy            {
+//yy              label: '🐈 Kittens',
+//yy              to: '/collections/kittens',
+//yy            },
+//yy            {
+//yy              label: '👵🏻 Grandmas',
+//yy              to: '/collections/grandmas',
+//yy            },
+//yy            {
+//yy              label: '🛩 Exclusives',
+//yy              to: '/collections/exclusives',
+//yy            },
+//yy            {
+//yy              label: '🪂 KittyVault Purrks',
+//yy              to: '/collections/kittyvault-purrks',
+//yy            },
+//yy            {
+//yy              label: "🎁 Purrnelope's Gift",
+//yy              to: '/collections/gift',
+//yy            },
+//yy            {
+//yy              label: 'All Collections',
+//yy              to: '/collections',
+//yy            },
+//yy          ],
+//yy        },
+       { to: '/ens', label: '🆔 ENS', position: 'left' },
+       { to: '/kittyvault', label: '🏦 KittyVault', position: 'left' },
+       { to: '/merch', label: '👕 Merch', position: 'left' },
+       
       {
-        label: '😺 Collections',
-        position: 'left',
-        to: '/collections',
-        items: [
-          {
-            label: '😺 Cats',
-            to: '/collections/cats',
-          },
-          {
-            label: '🐈 Kittens',
-            to: '/collections/kittens',
-          },
-          {
-            label: '👵🏻 Grandmas',
-            to: '/collections/grandmas',
-          },
-          {
-            label: '🛩 Exclusives',
-            to: '/collections/exclusives',
-          },
-          {
-            label: '🪂 KittyVault Purrks',
-            to: '/collections/kittyvault-purrks',
-          },
-          {
-            label: "🎁 Purrnelope's Gift",
-            to: '/collections/gift',
-          },
-          {
-            label: 'All Collections',
-            to: '/collections',
-          },
-        ],
-      },
-      { to: '/ens', label: '🆔 ENS', position: 'left' },
-      { to: '/kittyvault', label: '🏦 KittyVault', position: 'left' },
-      { to: '/merch', label: '👕 Merch', position: 'left' },
-      {
-        label: '📰 博客',
+        label: '📰 帖子',
         position: 'left',
         to: '/posts',
         items: [
@@ -58,31 +59,31 @@ module.exports = {
             to: '/posts/tags/weekly-update',
           },
           {
-            label: '📔 Team Blog',
-            to: '/posts/tags/blog',
+            label: '📔 Blog',
+            to: '/posts/tags/QQ',
           },
           {
-            label: '🎙 PurrCast',
+            label: '🎙 油管',
             to: '/posts/tags/purr-cast',
           },
           {
-            label: '💬 Interview',
+            label: '💬 面试',
             to: '/posts/tags/interview',
           },
           {
-            label: '🧐 Explained',
+            label: '🧐 解释',
             to: '/posts/tags/explained',
           },
           {
-            label: '👨‍🏫 Learn',
+            label: '👨‍🏫 学习',
             to: '/posts/tags/learn',
           },
           {
-            label: '🏷 All Tags',
+            label: '🏷 所有标签',
             to: '/posts/tags',
           },
           {
-            label: 'All Posts',
+            label: '🎁所有帖子',
             to: '/posts',
           },
         ],
@@ -93,23 +94,15 @@ module.exports = {
         position: 'left',
         items: [
           {
-            label: '😼 PCC Team',
+            label: '😼 团队',
             to: '/club/team',
           },
           {
-            label: '🔗 PCC Official Links',
-            to: '/official-links',
-          },
-          {
-            label: '🎨 Artwork',
+            label: '🎨 艺术品',
             to: '/artwork',
-          },
+          },  
           {
-            label: '🛠 Contracts & EOA Addresses',
-            to: '/addresses',
-          },
-          {
-            label: '🛰 Resources',
+            label: '🛰 资源库与友链',
             to: '/resources',
           },
         ],
@@ -119,56 +112,91 @@ module.exports = {
   footer: {
     links: [
       {
-        title: 'PCC-Archive.org',
+        title: 'MyBotDoc',
         items: [
           {
-            label: 'About PCC Archive',
+            label: '关于',
             to: '/about',
           },
           {
-            label: 'Contribute',
+            label: '贡献',
             to: '/contribute',
           },
           {
-            label: "botdoc GitHub",
+            label: "MyBotDoc GitHub",
             href: 'https://github.com/guyingd/mybotdoc',
           },
         ],
       },
       {
-        title: 'PCC Official',
+        title: '孤影的网站',
         items: [
           {
-            label: 'Website',
-            href: 'https://www.purrnelopescountryclub.com/',
+            label: '个人主页',
+            href: 'https://home.guyinga.top//',
           },
           {
-            label: 'Discord',
-            href: 'http://discord.gg/purrnelopescountryclub',
+            label: '博客[年久失修，接近报废]',
+            href: 'https://blog-azure-ten-63.vercel.app/',
           },
           {
-            label: 'Twitter',
-            href: 'https://twitter.com/PurrnelopesCC',
+            label: 'API',
+            href: 'https://g.guyinga.top/',
           },
           {
-            label: 'Official Links',
+            label: 'Sedocs',
+            href: 'https://docs.guyinga.top//',
+          },
+          {
+            label: '资源库与友链',
             to: '/official-links',
           },
         ],
       },
       {
-        title: 'More',
+        title: '更多',
         items: [
           {
-            label: 'Posts Archive',
+            label: '帖子存档',
             to: '/posts/archive',
           },
           {
-            label: 'Posts Tags',
+            label: '帖子标签',
             to: '/posts/tags',
-          },
+          },            
         ],
-      },
+        },
+        {
+        title: '更多',
+        items: [
+          {
+                label: "React",
+                href: "https://react.docschina.org/",
+              },
+              {
+                label: "Vue.js",
+                href: "https://react.docschina.org/",
+              },
+              {
+                label: "Python",
+                href: "https://www.w3school.com.cn/python/index.asp",
+              },
+              {
+                label: "Java",
+                href: "https://zq99299.github.io/java-tutorial/",
+              },
+              {
+                html: `<a href="https://docusaurus.io/zh-CN/" target="_blank"><img style="height:50px;margin-top:0.5rem" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/buildwith.png"/><a/>
+                
+                `,
+              },
+             {
+                html: `<a href="https://www.netlify.com/" target="_blank"><img style="height:50px;margin-top:0.5rem" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/netlify.png"/><a/>
+                
+                `,
+              },
+        ],
+        },
     ],
     copyright: `${new Date().getFullYear()} pcc-archive.org`,
   },
