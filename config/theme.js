@@ -49,12 +49,12 @@ module.exports = {
       { to: '/kittyvault', label: '🏦 KittyVault', position: 'left' },
       { to: '/merch', label: '👕 Merch', position: 'left' },
       {
-        label: '📰 Posts',
+        label: '📰 博客',
         position: 'left',
         to: '/posts',
         items: [
           {
-            label: '📅 Weekly Update',
+            label: '📅 每周更新',
             to: '/posts/tags/weekly-update',
           },
           {

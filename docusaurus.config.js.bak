@@ -27,8 +27,6 @@ const config = {
         htmlLang: 'en-GB',
       },
     },
-    },
-    
 }
 
 module.exports = config

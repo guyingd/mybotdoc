@@ -123,7 +123,7 @@
 
 /* Announcment Bar */
 div[class^='announcementBar_'] {
-  background: linear-gradient(45deg, #d8caed, #e2e0ff);
+  background: linear-gradient(45deg, #ffd8e2, #e2e0ff);
   background-size: 1000% 1000%;
   animation: announcementBarBg 3s ease infinite;
   font-weight: 500;

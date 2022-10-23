@@ -49,13 +49,13 @@ module.exports = {
       { to: '/kittyvault', label: '🏦 KittyVault', position: 'left' },
       { to: '/merch', label: '👕 Merch', position: 'left' },
       {
-        label: '📰 Posts',
+        label: '📰 博客',
         position: 'left',
         to: '/posts',
         items: [
           {
-            label: '📅 Weekly Update',
-            to: '/posts/tags/weekly-update',
+            label: '📅 每周更新',
+            to: '/posts/tags/WeLoveThePurrs',
           },
           {
             label: '📔 Team Blog',
@@ -130,8 +130,8 @@ module.exports = {
             to: '/contribute',
           },
           {
-            label: "PCC Archive's GitHub",
-            href: 'https://github.com/CuratorCat/pcc-archive.org',
+            label: "botdoc GitHub",
+            href: 'https://github.com/guyingd/mybotdoc',
           },
         ],
       },
