@@ -9,45 +9,45 @@ module.exports = {
       src: 'http://q2.qlogo.cn/headimg_dl?dst_uin=2739218253&spec=100',
     },
      items: [
-//yy        { to: '/club', label: '⛳️ Club', position: 'left' },
-//yy        {
-//yy          label: '😺 Collections',
-//yy          position: 'left',
-//yy          to: '/collections',
-//yy          items: [
-//yy            {
-//yy              label: '😺 Cats',
-//yy              to: '/collections/cats',
-//yy            },
-//yy            {
-//yy              label: '🐈 Kittens',
-//yy              to: '/collections/kittens',
-//yy            },
-//yy            {
-//yy              label: '👵🏻 Grandmas',
-//yy              to: '/collections/grandmas',
-//yy            },
-//yy            {
-//yy              label: '🛩 Exclusives',
-//yy              to: '/collections/exclusives',
-//yy            },
-//yy            {
-//yy              label: '🪂 KittyVault Purrks',
-//yy              to: '/collections/kittyvault-purrks',
-//yy            },
-//yy            {
-//yy              label: "🎁 Purrnelope's Gift",
-//yy              to: '/collections/gift',
-//yy            },
-//yy            {
-//yy              label: 'All Collections',
-//yy              to: '/collections',
-//yy            },
-//yy          ],
-//yy        },
-//yy        { to: '/ens', label: '🆔 ENS', position: 'left' },
-//yy        { to: '/kittyvault', label: '🏦 KittyVault', position: 'left' },
-//yy        { to: '/merch', label: '👕 Merch', position: 'left' },
+        { to: '/club', label: '⛳️ Club', position: 'left' },
+        {
+          label: '😺 Collections',
+          position: 'left',
+          to: '/collections',
+          items: [
+            {
+              label: '😺 Cats',
+              to: '/collections/cats',
+            },
+            {
+              label: '🐈 Kittens',
+              to: '/collections/kittens',
+            },
+            {
+              label: '👵🏻 Grandmas',
+              to: '/collections/grandmas',
+            },
+            {
+              label: '🛩 Exclusives',
+              to: '/collections/exclusives',
+            },
+            {
+              label: '🪂 KittyVault Purrks',
+              to: '/collections/kittyvault-purrks',
+            },
+            {
+              label: "🎁 Purrnelope's Gift",
+              to: '/collections/gift',
+            },
+            {
+              label: 'All Collections',
+              to: '/collections',
+            },
+          ],
+        },
+        { to: '/ens', label: '🆔 ENS', position: 'left' },
+        { to: '/kittyvault', label: '🏦 KittyVault', position: 'left' },
+        { to: '/merch', label: '👕 Merch', position: 'left' },
        
       {
         label: '📰 帖子',

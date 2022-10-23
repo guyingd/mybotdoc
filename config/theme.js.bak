@@ -8,7 +8,7 @@ module.exports = {
       alt: '头像',
       src: 'http://q2.qlogo.cn/headimg_dl?dst_uin=2739218253&spec=100',
     },
-//yy     items: [
+     items: [
 //yy        { to: '/club', label: '⛳️ Club', position: 'left' },
 //yy        {
 //yy          label: '😺 Collections',
@@ -45,9 +45,9 @@ module.exports = {
 //yy            },
 //yy          ],
 //yy        },
-       { to: '/ens', label: '🆔 ENS', position: 'left' },
-       { to: '/kittyvault', label: '🏦 KittyVault', position: 'left' },
-       { to: '/merch', label: '👕 Merch', position: 'left' },
+//yy        { to: '/ens', label: '🆔 ENS', position: 'left' },
+//yy        { to: '/kittyvault', label: '🏦 KittyVault', position: 'left' },
+//yy        { to: '/merch', label: '👕 Merch', position: 'left' },
        
       {
         label: '📰 帖子',
