@@ -19,6 +19,16 @@ const config = {
   plugins: require('./config/plugin'),
   
     stylesheets: [],
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'zh'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      },
+    },
+    },
+
 }
 
 module.exports = config
