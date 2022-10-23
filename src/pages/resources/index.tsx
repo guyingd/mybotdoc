@@ -106,7 +106,7 @@ function ShowcaseHeader() {
       <h1>{TITLE}</h1>
       <p className="text-lg">{DESCRIPTION}</p>
       <p>
-        <Link href="https://github.com/CuratorCat/pcc-archive.org/blob/main/src/data/resources/data.ts">
+        <Link href="https://github.com/guyingd/mybotdoc/blob/main/src/data/resources/data.ts">
           <span className="underline hover:text-violet-500 rounded px-1 py-0.5 ">添加新友链或者资源网站</span>
         </Link>
       </p>

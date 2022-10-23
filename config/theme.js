@@ -130,8 +130,8 @@ module.exports = {
             to: '/contribute',
           },
           {
-            label: "PCC Archive's GitHub",
-            href: 'https://github.com/CuratorCat/pcc-archive.org',
+            label: "botdoc GitHub",
+            href: 'https://github.com/guyingd/mybotdoc',
           },
         ],
       },

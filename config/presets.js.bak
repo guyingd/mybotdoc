@@ -10,7 +10,7 @@ module.exports = [
 
         sidebarPath: require.resolve('../sidebars.js'),
         // Please change this to your repo.
-        editUrl: 'https://github.com/guyingd/mybotdoc/tree/main/',
+        editUrl: 'https://github.com/CuratorCat/pcc-archive.org/tree/main/',
         // showLastUpdateAuthor: true,
         // showLastUpdateTime: true,
       },
@@ -23,7 +23,7 @@ module.exports = [
         postsPerPage: 15,
         blogSidebarCount: 10,
         // Please change this to your repo.
-        editUrl: 'https://github.com/guyingd/mybotdoc/tree/main/',
+        editUrl: 'https://github.com/CuratorCat/pcc-archive.org/tree/main/',
       },
       theme: {
         customCss: require.resolve('../src/css/custom.scss'),

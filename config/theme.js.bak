@@ -5,8 +5,8 @@ module.exports = {
   navbar: {
     // title: "PCC Archive",
     logo: {
-      alt: 'PCC Archive Logo',
-      src: 'img/logo-pcca.svg',
+      alt: '头像',
+      src: 'http://q2.qlogo.cn/headimg_dl?dst_uin=2739218253&spec=100',
     },
     items: [
       { to: '/club', label: '⛳️ Club', position: 'left' },
