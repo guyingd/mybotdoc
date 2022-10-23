@@ -1,7 +1,7 @@
 ---
 title: What even is the Purrnelope's Country Club Kitty Bank?
 date: Sep 24, 2021
-authors: dangywing
+authors: GuYing
 tags: [Learn]
 image: ./assets/what-is-pcc-kitty-bank.jpg
 og_url: https://youtu.be/3u_e3BaGS6o

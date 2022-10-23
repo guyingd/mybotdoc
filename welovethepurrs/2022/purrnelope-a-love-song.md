@@ -2,7 +2,7 @@
 title: '"Purrnelope" Song for PCC by Taehan, Alamo, StoneSoWavy, 888'
 description: A Love Song Made For Purrnelope's Country Club
 date: 2022-05-12
-# authors: purrnelope
+# authors: GuYing
 image: ./assets/purrnelope-a-love-song.jpg
 tags: [Song]
 og_url: https://www.youtube.com/watch?v=CkSt6nUsQgA

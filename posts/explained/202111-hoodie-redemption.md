@@ -1,6 +1,6 @@
 ---
 title: "Hoodie Redemption: Explained!"
-authors: [katie]
+authors: [GuYing]
 tags: [Explained]
 date: 2021-11-03
 image: ./assets/202111-hoodie-redemption.jpg

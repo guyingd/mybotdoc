@@ -58,8 +58,8 @@ module.exports = {
             to: '/posts/tags/weekly-update',
           },
           {
-            label: '📔 Blog',
-            to: '/posts/tags/QQ',
+            label: '📔 Team Blog',
+            to: '/posts/tags/blog',
           },
           {
             label: '🎙 PurrCast',

@@ -1,7 +1,7 @@
 ---
 title: "ArPURRtrage: How to use Arbitrage, Purrs & $PURR to make ETH"
 date: Sep 4, 2021
-authors: dangywing
+authors: GuYing
 tags: [Learn]
 image: ./assets/how-to-use-arbitrage-purrs-to-make-eth.jpg
 og_url: https://youtu.be/EPDsFgStQ4g
