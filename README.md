@@ -1,41 +1,42 @@
-# PCC-ARCHIVE.ORG
+# MyBotDoc
 
-Repo for [pcc-archive.org](https://pcc-archive.org). Me, @CuratorCat started this project for the PCC Community, currently maintained by @CuratorCat.
+文档模板来自 [pcc-archive.org](https://pcc-archive.org). 目前用做自用机器人的教程文档
 
-Learn more about this project at [./src/pages/about.md](./src/pages/about.md).
+了解有关此项目的更多信息[./src/pages/about.md](./src/pages/about.md).
 
-## Content
+## 内容
 
-- `wiki` dir: all wikis for PCC
-- `posts` dir: web posts, media from and about PCC
-- `welovethepurrs` dir: web posts, stories on people showing their loves for purrs
+- `wiki` 目录: MyBotDoc 的所有 wiki
+- `posts` 目录: 来自和关于 MyBotDoc 的网络帖子、媒体，博文
+- `welovethepurrs` 目录: 暂无仅保留目录
 
-## Contribute
+## 贡献
 
-Anyone is welcomed to contribute to this project. Read more at [./src/pages/contriubute.md](./src/pages/contribute.md).
+欢迎任何人为这个项目做出贡献。 
+阅读更多内容[./src/pages/contriubute.md](./src/pages/contribute.md).
 
-## Dev
+## 开发
 
-This project is using docusaurus.
+这个项目正在使用 [docusaurus](https://docusaurus.io/zh-CN/)。
 
-### Installation
+### 安装依赖
 
 ```
 $ yarn
 ```
 
-### Local Development
+### 运行
 
 ```
 $ yarn start
 ```
 
-### Build
+### 构建
 
 ```
 $ yarn build
 ```
 
-### Deploy
+### 部署
 
-Currently deployed using Vercel for the `main` branch in this repo.
+当前使用 [Vercel](https://vercel.com/new) 部署main在此 repo 中的分支。
